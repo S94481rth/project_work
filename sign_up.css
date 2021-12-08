@@ -1,0 +1,82 @@
+body{
+    margin : 0;
+    padding: 0;
+    background-image: url(backimage.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.sign_up-box{
+    border-radius: 210px;
+    width: 400px;
+    height: 480px;
+    background: aqua;
+    top: 50%;
+    left:30%;
+    position:absolute;
+    transform: translate(-75%,-45%);
+    box-sizing: border-box;
+}
+.logo{
+    position: center;
+    width: 40px;
+    height: 40px;
+    transform: translate(30%,30%);
+}
+.user{
+    height: 80px;
+    width: 70px;
+    border-radius: 45px;
+    position: absolute;
+    top:20px;
+    left: 165px;
+}
+.form{
+    transform: translate(50%,0%);
+}
+.text_text{
+    transform: translate(0%,30%);
+    color: black;
+    text-align: center;
+    font-size: medium;
+    font-style: italic;
+}
+.text_text2 input[type="button"]{
+    width: 150px;
+    heigth: 100px;
+    border-radius: 40px;
+    background-color: aqua;
+}
+
+.sign_up-box2{
+    border-radius: 210px;
+    width: 400px;
+    height: 480px;
+    background: rgb(112, 117, 117);
+    top: 50%;
+    left:30%;
+    position:absolute;
+    transform: translate(75%,-45%);
+    box-sizing: border-box;
+}
+.text_text2{
+    transform: translate(0%,35%);
+    color: black;
+    text-align: center;
+    font-size: medium;
+    font-style: italic;
+}
+.text_text2 input[type="button"]:hover{
+    background: rgb(0, 87, 128);
+    cursor: pointer;
+}
+.text_text2 a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: goldenrod
+}
+.text_text2 a:hover{
+    
+    color: green;
+
+}
