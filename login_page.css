@@ -37,7 +37,7 @@ body{
     outline: none;
     height : 20px;  
 }
-.text_text input[type="button"]{
+.text_text input[type="submit"]{
     border: none;
     outline: none;
     height: 30px;
@@ -47,7 +47,7 @@ body{
     font-size: 18px;
     border-radius: 20px;
 }
-.text_text input[type="button"]:hover{
+.text_text input[type="submit"]:hover{
     background: rgb(0, 87, 128);
     cursor: pointer;
 }
