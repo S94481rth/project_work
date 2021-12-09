@@ -40,7 +40,7 @@ body{
     font-size: medium;
     font-style: italic;
 }
-.text_text2 input[type="button"]{
+.text_text2 input[type="submit"]{
     width: 150px;
     heigth: 100px;
     border-radius: 40px;
@@ -51,7 +51,7 @@ body{
     border-radius: 210px;
     width: 400px;
     height: 480px;
-    background: rgb(112, 117, 117);
+    background: aqua;
     top: 50%;
     left:30%;
     position:absolute;
@@ -65,11 +65,12 @@ body{
     font-size: medium;
     font-style: italic;
 }
-.text_text2 input[type="button"]:hover{
+.text_text2 input[type="submit"]:hover{
     background: rgb(0, 87, 128);
     cursor: pointer;
 }
 .text_text2 a{
+    margin: 10%;
     text-decoration: none;
     font-size: 16px;
     line-height: 20px;
@@ -79,4 +80,31 @@ body{
     
     color: green;
 
+}
+.form-control{
+    text-align: center;
+    margin-top: 10%;
+}
+:root{
+    --succes-color: #2ecc71;;
+    --error-color: #e74c3c;
+}
+.form-control.success input {
+    border-color: var(--succes-color);
+}
+
+.form-control.error input {
+    border-color: var(--error-color);    
+}
+
+.form-control small{
+    color: var(--error-color);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.form-control.error small{
+    visibility: visible;
 }
