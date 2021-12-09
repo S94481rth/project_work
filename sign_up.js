@@ -1,10 +1,10 @@
 const form = document.getElementById('form');
-const username = document.getElementById('username') ;
+const username = document.getElementById('username');
 const email = document.getElementById('email');
 const password = document.getElementById('password');
 const password2 = document.getElementById('password2');
 
-
+//Show input error messages
 function showError(input, message) {
     const formControl = input.parentElement;
     formControl.className = 'form-control error';
@@ -68,7 +68,7 @@ function checkPasswordMatch(input1, input2) {
 //Event Listeners
 form.addEventListener('submit',function(e) {
     e.preventDefault();
-
+    
     checkRequired([username, email, password, password2]);
     checkLength(username,3,15);
     checkLength(password,6,25);
